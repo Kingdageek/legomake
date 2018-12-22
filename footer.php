@@ -30,7 +30,7 @@
 											<a href="#" title="Connect with us on facebook"><i id="social-fb" class="fa fa-facebook fa-2x social text-center"></i></a>
 											<a href="#" title="Connect with us on twitter"><i id="social-tw" class="fa fa-twitter fa-2x social text-center"></i></a>
 											<a href="#" title="Connect with us on google+"><i id="social-gp" class="fa fa-google-plus fa-2x social text-center"></i></a>
-											<a href="#" title="Connect with us on instagram"><i id="social-em" class="fa fa-instagram fa-2x social text-center"></i></a>
+											<a href="#" title="Connect with us on instagram"><i id="social-in" class="fa fa-instagram fa-2x social text-center"></i></a>
 									</div>
 									
 								</div>

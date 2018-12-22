@@ -7,6 +7,7 @@
 	<title><?=$title;?></title>
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/animate.css">
 	<link href="assets/css/style1.css" rel="stylesheet">
 </head>
 <body class= "container-fluid">

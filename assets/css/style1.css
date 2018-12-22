@@ -5,9 +5,13 @@ html,body,.container-fluid {
     padding: 0;
     margin: 0;
 }
+body {
+    overflow-x: hidden;
+}
 .btn {
-    border-radius: 25px;
+    border-radius: 27px;
     transition: transform 0.4s ease-in-out;
+    padding: .5rem 1rem;
 }
 .btn:hover {
     transform: translateY(7%);
@@ -84,7 +88,7 @@ h3 {
 .a_font {
 	color: #f7f3ef !important;
 }
-
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 #footer-nav {
 	list-style-type: none;
 	margin-left: 0;
@@ -105,6 +109,66 @@ h3 {
  #social-gp:hover {
      color: #d34836;
  }
- #social-em:hover {
+ #social-in:hover {
      color: #f39c12;
  }
+
+ /* ======================= SHOWCASE PANE STYLING =============================== */
+ .lm-show {
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    margin-left: 0;
+    top: 68.9px;
+ }
+ .mast-head {
+    background: linear-gradient(to left, #6C747CD1 10%, #635A4FD1 100%);
+    color: #fff;
+ }
+/* .lm-s1,.lm-s2,.lm-s3 {
+    display:none;
+} */
+.showcase-bt {
+    text-transform: capitalize;
+    line-height: 1em;
+    font-size: 70px;
+    color: #fff;
+    font-weight: 100;
+    animation-duration: 0.9s;
+    position: relative;
+    text-shadow: 0 4px 3px rgba(0,0,0,.4), 0 8px 13px rgba(0,0,0,.1), 0 18px 23px rgba(0,0,0,.1);
+}
+
+.jumbotron {
+	background-image: url(../img/pp.jpg);
+	background-size: cover;
+	background-position: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+.jumbotron > .plaster {
+	padding: 5rem 2rem;
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.2));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.2));
+    background: linear-gradient(to top, rgba(0,0,0,.4) 10%, rgba(0,0,0,.2) 100%);
+}
+.jumbotron h1 {
+	color: rgba(255,255,255,1) !important;
+	text-shadow: 0 4px 3px rgba(0,0,0,.4),
+				 0 8px 13px rgba(0,0,0,.1),
+				 0 18px 23px rgba(0,0,0,.1);
+    font-family: Sahitya-Bold;
+}
+.jumbotron p {
+	color: #e0d8d8 !important;
+	font-family: Kurale-Regular;
+
+}
+.jumbotron > .container {
+	max-width: 100%;
+	/* background: #000; */
+    padding-bottom: 20px;
+}
+.lm-bs {
+    margin-top: 1rem;
+}
