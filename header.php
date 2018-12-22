@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title><?=$title;?></title>
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/animate.css">
 	<link href="assets/css/style1.css" rel="stylesheet">
@@ -19,7 +20,7 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-				<ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 					<li class="nav-item active dropdown mr-2">
                         <a class="nav-link" href="#" data-toggle="dropdown" id="navbarDropdown" title="Learn about our services">
 							Services<span class="sr-only">(current)</span>
@@ -27,14 +28,14 @@
 						<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
 							<a class="dropdown-item" href="#">Web development</a>
 							<a class="dropdown-item" href="#">Mobile app development</a>
-							<a class="dropdown-item" href="#">Graphic design</a>
+							<a class="dropdown-item" href="#">Digital Marketing &amp; Branding</a>
 						</div>
 					</li>
 					<li class="nav-item mr-2">
 						<a class="nav-link" href="#" title="See our projects">Portfolio</a>
 					</li>
 					<li class="nav-item mr-2">
-						<a class="nav-link" href="#" title="Get our estimate for your project">Estimate Project</a>
+						<a class="nav-link" href="#" title="Meet our creative team">Team</a>
 					</li>
 								
 				</ul>	
