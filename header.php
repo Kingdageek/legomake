@@ -21,15 +21,8 @@
 
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-					<li class="nav-item dropdown mx-2 px-2">
-                        <a class="nav-link" href="#" data-toggle="dropdown" id="navbarDropdown" title="Learn about our services">
-							Services<span class="sr-only">(current)</span>
-						</a>
-						<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Web development</a>
-							<a class="dropdown-item" href="#">Mobile app development</a>
-							<a class="dropdown-item" href="#">Digital Marketing &amp; Branding</a>
-						</div>
+					<li class="nav-item mx-2 px-2">
+						<a class="nav-link" href="#" title="Learn about our services">Services</a>
 					</li>
 					<li class="nav-item mx-2 px-2">
 						<a class="nav-link" href="#" title="See our projects">Portfolio</a>
