@@ -15,7 +15,7 @@
 								<h3>Get In Touch</h3>
 								<div>
 									<div>
-										<span class="linkaid">Legomake IT Services</span><br>
+										<span class="linkaid">Legomake Digital</span><br>
 										<span>28 Apena Street, </span><br>
 										<span>Ojuelegba, Surulere,</span><br>										
 										<span>Lagos, Nigeria</span>
@@ -41,7 +41,7 @@
 						<div class="margin-footer">
 							<div class="margin-footer col-div">
 								<ul id="footer-nav" class="margin-footer">
-									<li><a href="../legomake" class="a_font">Home</a></li>
+									<li><a href="" class="a_font">Home</a></li>
 									<li><a href="#" class="a_font">Services</a></li>
 									<li><a href="#" class="a_font">Portfolio</a></li>
 									<li><a href="#" class="a_font">Estimate Project</a></li>
@@ -53,7 +53,7 @@
 				</div>
 			
 			<div id="pcmn_div">
-				<p>Legomake IT Services &copy;<?=date("Y");?>. All Rights Reserved.</p>
+				<p>Legomake Digital &copy;<?=date("Y");?>. All Rights Reserved.</p>
 			</div>
 		</div>
 	
