@@ -27,11 +27,13 @@ include_once "header.php"
 				<p class="lead">Design. Development. Strategy. Let's go make!</p>
 				<div>
 					<a href="#!" class="button btn btn-primary lm-bs" role="button"><i class="fa fa-arrow-circle-down"></i> Learn More</a>
-					<!-- <a href="#!" class="button btn btn-info lm-bs" role="button"><i class="fa fa-arrow-circle-down"></i> Estimate Project</a> -->
 				</div>
 			</div>	
 		</div>
 	</div>
+	<section id="services">
+		<?php include_once 'services.php';?>
+	</section>
 
 
 
