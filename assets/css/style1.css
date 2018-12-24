@@ -152,13 +152,6 @@ h3 {
     padding: 0;
 }
 
-/* Parallax scrolling most times doesn't work on mobile devices. This removes the parallax scroll effect  */
-
-@media only screen and (max-device-width: 1366px) {
-    .jumbotron {
-      background-attachment: scroll;
-    }
-}
 .jumbotron > .plaster {
 	padding: 5rem 2rem;
 }
@@ -184,4 +177,12 @@ h3 {
 }
 .lm-bs {
     margin-top: 1rem;
+}
+
+/* Parallax scrolling most times doesn't work on mobile devices. This removes the parallax scroll effect  */
+
+@media only screen and (width: 766px) {
+    .jumbotron {
+      background-attachment: scroll;
+    }
 }
