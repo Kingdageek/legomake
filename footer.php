@@ -15,7 +15,7 @@
 								<h3>Get In Touch</h3>
 								<div>
 									<div>
-										<span class="linkaid">Legomake IT Services</span><br>
+										<span class="linkaid">Legomake Digital</span><br>
 										<span>28 Apena Street, </span><br>
 										<span>Ojuelegba, Surulere,</span><br>										
 										<span>Lagos, Nigeria</span>
@@ -30,7 +30,7 @@
 											<a href="#" title="Connect with us on facebook"><i id="social-fb" class="fa fa-facebook fa-2x social text-center"></i></a>
 											<a href="#" title="Connect with us on twitter"><i id="social-tw" class="fa fa-twitter fa-2x social text-center"></i></a>
 											<a href="#" title="Connect with us on google+"><i id="social-gp" class="fa fa-google-plus fa-2x social text-center"></i></a>
-											<a href="#" title="Connect with us on instagram"><i id="social-em" class="fa fa-instagram fa-2x social text-center"></i></a>
+											<a href="#" title="Connect with us on instagram"><i id="social-in" class="fa fa-instagram fa-2x social text-center"></i></a>
 									</div>
 									
 								</div>
@@ -41,7 +41,7 @@
 						<div class="margin-footer">
 							<div class="margin-footer col-div">
 								<ul id="footer-nav" class="margin-footer">
-									<li><a href="../legomake" class="a_font">Home</a></li>
+									<li><a href="" class="a_font">Home</a></li>
 									<li><a href="#" class="a_font">Services</a></li>
 									<li><a href="#" class="a_font">Portfolio</a></li>
 									<li><a href="#" class="a_font">Estimate Project</a></li>
@@ -53,12 +53,13 @@
 				</div>
 			
 			<div id="pcmn_div">
-				<p>Legomake IT Services &copy;<?=date("Y");?>. All Rights Reserved.</p>
+				<p>Legomake Digital &copy;<?=date("Y");?>. All Rights Reserved.</p>
 			</div>
 		</div>
 	
 	</footer>
 
 	<script src="assets/js/jquery.min.js"></script>	
-	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- <script src="assets/js/bootstrap.min.js"></script> -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 	<script src="assets/js/custom.js"></script>

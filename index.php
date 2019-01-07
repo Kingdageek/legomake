@@ -1,6 +1,6 @@
 <?php 
-$title = "Legomake IT | Build amazing products affordably";
-include_once "header.php";
+$title = "Legomake Digital | Creative Digital Agency";
+include_once "header.php"
 ?>
 	<!-- <div class='row mast-head'>
 		<div class="col-md-6 p-5">
@@ -22,16 +22,20 @@ include_once "header.php";
 			
 	<div class="jumbotron jumbotron-fluid text-center">
 		<div class="plaster">
-			<div class="container">
-				<h1 class="display-3">Build amazing products affordably</h1>
-				<p class="lead">Learn. Gain real experience. Make awesome impact.</p>
+			<div class="container py-5">
+				<h1 class="display-3">We provide digital solutions that lead to sales conversions</h1>
+				<p class="lead">Design. Development. Strategy. Let's go make!</p>
 				<div>
 					<a href="#!" class="button btn btn-primary lm-bs" role="button"><i class="fa fa-arrow-circle-down"></i> Learn More</a>
-					<a href="#!" class="button btn btn-info lm-bs" role="button"><i class="fa fa-arrow-circle-down"></i> Estimate Project</a>
+					<!-- <a href="#!" class="button btn btn-info lm-bs" role="button"><i class="fa fa-arrow-circle-down"></i> Estimate Project</a> -->
 				</div>
 			</div>	
 		</div>
-	</di
+	</div>
+
+
+
+
 
 
 <?php include_once "footer.php"; ?>
