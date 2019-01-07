@@ -5,11 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title><?=$title;?></title>
-	<!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+	<link href="<?= URLROOT;?>/assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/animate.css">
-	<link href="assets/css/style1.css" rel="stylesheet">
+	<link href="<?= URLROOT;?>/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="<?= URLROOT;?>/assets/css/animate.css">
+	<link href="<?= URLROOT;?>/assets/css/style1.css" rel="stylesheet">
 </head>
 <body class= "container-fluid">
 	<header>

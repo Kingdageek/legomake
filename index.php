@@ -1,24 +1,9 @@
 <?php 
 $title = "Legomake Digital | Creative Digital Agency";
+include_once "config.php";
 include_once "header.php"
 ?>
-	<!-- <div class='row mast-head'>
-		<div class="col-md-6 p-5">
-			<div>
-				<h1 class="showcase-bt animated fadeInUp">Build amazing<br> 
-					<b class='lm-show lm-s1 animated fadeInUp'>websites</b>
-					<b class='lm-show lm-s2 animated fadeInUp'>mobile apps</b>
-					<b class='lm-show lm-s3 animated fadeInUp'>products</b><br>
-					affordably
-				</h1>
-			</div>
-			<div>
-				<a class="btn btn-primary btn-lg" href="#!">Learn more <span class='fa fa-arrow-down'></span></a>
-			</div>
-		</div>
-		<div class="col-md-6">
-		</div>
-	</div> -->
+
 			
 	<div class="jumbotron jumbotron-fluid text-center">
 		<div class="plaster">
@@ -31,7 +16,7 @@ include_once "header.php"
 			</div>	
 		</div>
 	</div>
-	<section id="services">
+	<section id="services" class="py-5">
 		<?php include_once 'services.php';?>
 	</section>
 
@@ -43,16 +28,33 @@ include_once "header.php"
 <?php include_once "footer.php"; ?>
 <script>	
 	$(function(){
-		$(".lm-show").hide();
-		$(".lm-s1").delay(1300).fadeIn();
-		setTimeout(function() {
-			$(".lm-s1").addClass("fadeOutUp");		
-		}, 5300);
-		$(".lm-s2").delay(5700).fadeIn();
-		setTimeout(function() {
-			$(".lm-s2").addClass("fadeOutUp");		
-		}, 8100);
-		$(".lm-s3").delay(8700).fadeIn();
+		if ($(window).width() > 768) {
+			$(window).scroll(function() {
+				let x = $(this).scrollTop();
+				console.log(x);
+				
+				if (x >= 69) {
+					$('#lms-2').show();
+				}
+				if (x >= 148) {
+					$('#lms-1').show();
+				}
+				if (x >= 620) {
+					$('#lms-3').show();
+				}
+				if (x >= 713) {
+					$('#lms-4').show();
+				}
+				if (x >= 1176) {
+					$('#lms-6').show();
+				}
+				if (x >= 1269) {
+					$('#lms-5').show();
+				}
+			})
+			return
+		}
+		$('.lm-i-content').show();
 	});
 </script>				
 </body>
