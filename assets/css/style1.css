@@ -117,20 +117,6 @@ h3 {
  }
 
  /* ======================= SHOWCASE PANE STYLING =============================== */
- .lm-show {
-    position: absolute;
-    left: 0;
-    bottom: 1px;
-    margin-left: 0;
-    top: 68.9px;
- }
- .mast-head {
-    background: linear-gradient(to left, #6C747CD1 10%, #635A4FD1 100%);
-    color: #fff;
- }
-/* .lm-s1,.lm-s2,.lm-s3 {
-    display:none;
-} */
 .showcase-bt {
     text-transform: capitalize;
     line-height: 1em;
@@ -145,10 +131,13 @@ h3 {
 .jumbotron {
 	background-image: url(../img/pp.jpg);
 	background-size: cover;
-	background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin-bottom: 0;
     padding: 0;
 }
+
 .jumbotron > .plaster {
 	padding: 5rem 2rem;
 }
@@ -169,9 +158,78 @@ h3 {
 }
 .jumbotron > .container {
 	max-width: 100%;
-	/* background: #000; */
     padding-bottom: 20px;
 }
 .lm-bs {
     margin-top: 1rem;
+}
+
+/* ================================ SERVICES STYLING ==================================== */
+#services {
+    background-color: rgba(243,243,243);
+}
+.lm-i-content {
+    display: none;
+    animation-delay: 0.1s;
+}
+.lm-service-img {
+    height: 32rem;
+    width: 30rem;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 3px rgba(0,0,0,.4), 
+                0 0 8px 13px rgba(0,0,0,.1), 
+                0 0 18px 23px rgba(0,0,0,.1);
+    margin-left: 4rem;
+}
+.lm-service-dimg {
+    margin-right: 0;
+    margin-left: 4rem;
+}
+.lm-service-h2 {
+    font-size: 4rem;
+    line-height: 6rem;
+}
+.lm-service-p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: #777;
+}
+.lm-service-left {
+    padding-left: 5rem; 
+    padding-right: 0;
+}
+.lm-service-right {
+    padding-left: 0; 
+    padding-right: 5rem;
+}
+.lm-service-text {
+    margin-top:4rem;
+}
+.lm-service-devlign {
+    text-align: right;
+}
+.text-dblue {
+    color: #084482 !important;
+}
+
+/* ======================= MEDIA QUERIES ============================== */
+
+@media only screen and (max-width: 768px) {
+/* Parallax scrolling most times doesn't work on mobile devices. This removes the parallax scroll effect  */
+    .jumbotron {
+      background-attachment: scroll;
+    }
+    .lm-service-left,.lm-service-right {
+        padding-left: 1rem; 
+        padding-right: 0;
+    }    
+    .lm-service-devlign, .lm-service-text {
+        text-align: center;
+    }
+    .lm-service-img, .lm-service-dimg {
+        margin-left: 0;
+        margin-right: 0;
+        height: 28rem;
+        width: 26rem;
+    }
 }
