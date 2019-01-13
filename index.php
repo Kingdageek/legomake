@@ -11,7 +11,7 @@ include_once "header.php"
 				<h1 class="display-3">We provide digital solutions that lead to sales conversions</h1>
 				<p class="lead">Design. Development. Strategy. Let's go make!</p>
 				<div>
-					<a href="#!" class="button btn btn-primary lm-bs" role="button"><i class="fa fa-arrow-circle-down"></i> Learn More</a>
+					<a href="#services" class="button btn btn-primary lm-bs" role="button"><i class="fa fa-arrow-circle-down"></i> Learn More</a>
 				</div>
 			</div>	
 		</div>

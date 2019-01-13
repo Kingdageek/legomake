@@ -4,6 +4,8 @@ html,body,.container-fluid {
     height: 100%;
     padding: 0;
     margin: 0;
+    font-family: 'Lato', 'Sans-serif';
+    box-sizing: border-box;
 }
 body {
     overflow-x: hidden;
@@ -139,7 +141,7 @@ h3 {
 }
 
 .jumbotron > .plaster {
-	padding: 5rem 2rem;
+	padding: 6rem 2rem;
 }
 .jumbotron > .plaster > .container {
     background: linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.2) 70%);
@@ -148,13 +150,11 @@ h3 {
 	color: rgba(255,255,255,1) !important;
 	text-shadow: 0 4px 3px rgba(0,0,0,.4),
 				 0 8px 13px rgba(0,0,0,.1),
-				 0 18px 23px rgba(0,0,0,.1);
-    font-family: Sahitya-Bold;
+                 0 18px 23px rgba(0,0,0,.1);
 }
 .jumbotron p {
 	color: #e0d8d8 !important;
-	font-family: Kurale-Regular;
-
+	/* font-family: Kurale-Regular; */
 }
 .jumbotron > .container {
 	max-width: 100%;
@@ -176,9 +176,9 @@ h3 {
     height: 32rem;
     width: 30rem;
     border-radius: 50%;
-    box-shadow: 0 0 4px 3px rgba(0,0,0,.4), 
+    /* box-shadow: 0 0 4px 3px rgba(0,0,0,.4), 
                 0 0 8px 13px rgba(0,0,0,.1), 
-                0 0 18px 23px rgba(0,0,0,.1);
+                0 0 18px 23px rgba(0,0,0,.1); */
     margin-left: 4rem;
 }
 .lm-service-dimg {
@@ -188,10 +188,11 @@ h3 {
 .lm-service-h2 {
     font-size: 4rem;
     line-height: 6rem;
+    font-weight: 300;
 }
 .lm-service-p {
     font-size: 1.2rem;
-    line-height: 2.5rem;
+    line-height: 2.4rem;
     color: #777;
 }
 .lm-service-left {
@@ -219,17 +220,37 @@ h3 {
     .jumbotron {
       background-attachment: scroll;
     }
+    .jumbotron > .plaster {
+        padding: 2rem 1rem;
+    }
+    .py-5 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
     .lm-service-left,.lm-service-right {
         padding-left: 1rem; 
         padding-right: 0;
-    }    
-    .lm-service-devlign, .lm-service-text {
+    }
+    .lm-i-content {
         text-align: center;
+        margin-top: 0;
     }
     .lm-service-img, .lm-service-dimg {
         margin-left: 0;
         margin-right: 0;
-        height: 28rem;
-        width: 26rem;
+        height: 22rem;
+        width: 20rem;
+    }
+    .lm-service-img {
+        padding: 1rem;
+    }
+    .display-3 {
+        font-size: 3.5rem;
+    }
+    .lm-service-p {
+        line-height: 2.1rem;
+    }
+    #lms-4 {
+        margin-top: 0;
     }
 }
