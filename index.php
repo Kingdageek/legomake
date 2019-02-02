@@ -1,31 +1,39 @@
 <?php 
-$title = "Legomake Digital | Creative Digital Agency";
+$title = "Legomake Digital | Graphic Designs, Website & Mobile Development, Brand Promotion";
 include_once "config.php";
-include_once "header.php"
+include_once "header.php";
 ?>
-
-			
 	<div class="jumbotron jumbotron-fluid text-center">
-		<div class="plaster">
-			<div class="container py-5">
-				<h1 class="display-3">We provide digital solutions that lead to sales conversions</h1>
-				<p class="lead">Design. Development. Strategy. Let's go make!</p>
-				<div>
-					<a href="#services" class="button btn btn-primary lm-bs" role="button"><i class="fa fa-arrow-circle-down"></i> Learn More</a>
+			<div>
+				<div class="row">
+					<div class="col-md-6 plaster">
+						<h1 class="display-3 text-white">We create amazing web & mobile experiences</h1>
+						<p class="lead">Designs. Web &amp; Mobile Development. Brand Promotion. Let's go make!</p>
+						<div>
+							<a href="#services" class="button btn btn-primary header-btn lm-bs sscroll" role="button"><i class="fa fa-arrow-circle-down"></i> Learn more</a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="">
+							<img src="<?=URLROOT;?>/assets/img/legomakeimg.png" alt="" class="img-house">
+						</div>
+					</div>
 				</div>
-			</div>	
+			</div>
 		</div>
-	</div>
-	<section id="services" class="py-5">
-		<?php include_once 'services.php';?>
-	</section>
-
-
-
-
-
-
-<?php include_once "footer.php"; ?>
+</header>
+<div id="lm-content-house">
+		<section id="services" class="py-5">
+			<?php include_once 'services.php';?>
+		</section>
+		<section id="team" class="py-5">
+			<?php include_once 'team.php';?>
+		</section>
+		<section id="contact" class="py-5">
+			<?php include_once 'contact.php';?>
+		</section>
+	<?php include_once "footer.php"; ?>
+</div>
 <script>	
 	$(function(){
 		if ($(window).width() > 768) {
@@ -50,6 +58,35 @@ include_once "header.php"
 				}
 				if (x >= 1269) {
 					$('#lms-5').show();
+				}
+				if (x >= 1775) {
+					$('#lmt-7').show();
+				}
+				if (x >= 1872) {
+					$('#lmt-8').show();
+				}
+				if (x >= 1973) {
+					$('#lmt-9').show();
+				}
+				if (x >= 1973) {
+					$('#lmt-10').show();
+				}
+				if (x >= 1973) {
+					$('#lmt-11').show();
+				}
+				if (x >= 1973) {
+					$('#lmt-12').show();
+				}
+				if (x >= 2415) {
+					$('#lmc-13').show();
+				}if (x >= 2505) {
+					$('#lmc-14').show();
+				}
+				if (x >= 2615) {
+					$('#lmc-16').show();
+				}
+				if (x >= 2666) {
+					$('#lmc-15').show();
 				}
 			})
 			return

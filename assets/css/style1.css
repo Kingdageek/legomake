@@ -1,3 +1,11 @@
+/* ======================== SITE BASE COLOUR =================================== */
+.bg-primary {
+    background-color: #084482 !important;
+}
+.btn-primary {
+    border-color: #084482 !important;
+    background-color: #084482 !important;
+}
 /* ========================= HEADER STYLING ==================================== */
 html,body,.container-fluid {
     width: 100%;
@@ -16,7 +24,11 @@ body {
     padding: .5rem 1rem;
 }
 .btn:hover {
-    transform: translateY(7%);
+    transform: translateY(-7%);
+}
+#logolego {
+    height: 2rem;
+    width: 10rem;
 }
 li.dropdown:hover > .dropdown-menu {
     display: block;
@@ -33,8 +45,40 @@ div.dropdown-menu {
 .dropdown-item {
     color: #fff;
 }
-li.nav-item > .nav-link:hover {
+.nav-link {
     color: #fff;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in-out;
+    padding-bottom: .3rem;
+}
+li.nav-item > .nav-link:hover {
+    border-bottom: solid #fff .1rem;
+    color: #fff;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: linear-gradient(to left, rgb(52, 58, 64, 1), rgb(52, 58, 64, .6) 70%);
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+}
+#top {
+    background-color: #084482;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    min-height: 42px;
+    background-image: linear-gradient(to left, #5a2bba 10%, #1ca4f6 100%);
+    background-size: cover;
+    background-position: center;
+}
+.sticky + #lm-content-house {
+    /* padding-top: 2rem; */
+}
+.fa.fa-navicon {
+    color: white;
+    font-size: 1.7rem;
 }
 
 /* ============================= FOOTER STYLING ===================================== */
@@ -49,7 +93,7 @@ footer {
 	background-color: #636567 !important;
 	height: 10%;
 	color: #f7f3ef !important;
-	padding: 10px;
+	padding: .4rem 2rem;
 }
 h3 {
     font-size: 1.387em;
@@ -70,7 +114,7 @@ h3 {
  	margin-top: 10px;
  }
 #social-pad {
-	margin-top: 30px;
+	float: right;
 }
 .linkaid {
 	font-weight: bold;
@@ -79,8 +123,8 @@ h3 {
 	margin: 10%;
 }
 #pcmn_div {
-	margin-top: 30px;
-	padding: 30px 30px 10px 30px;
+	margin-top: 20px;
+	padding: 20px 30px 10px 30px;
 	border-top: 2px solid #f7f3ef;
 }
 .pcmn {
@@ -89,6 +133,9 @@ h3 {
 .col-div {
 	padding: auto;
 	text-align: center;
+}
+.display-in-b {
+    display: inline-block;
 }
 .a_font {
 	color: #f7f3ef !important;
@@ -119,6 +166,17 @@ h3 {
  }
 
  /* ======================= SHOWCASE PANE STYLING =============================== */
+ .img-house {
+     height: 35rem;
+     width: 110%;
+ }
+ .header-btn {
+    color: #fff;
+    letter-spacing: 1px;
+ }
+ .header-btn:hover {
+     color: #fff;
+ }
 .showcase-bt {
     text-transform: capitalize;
     line-height: 1em;
@@ -131,20 +189,25 @@ h3 {
 }
 
 .jumbotron {
-	background-image: url(../img/pp.jpg);
+	/* background-image: url(../img/pp.jpg);
 	background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background: linear-gradient(to left, #5a2bba 10%, #1ca4f6 100%);
+    background-size: cover;
     margin-bottom: 0;
     padding: 0;
 }
 
-.jumbotron > .plaster {
-	padding: 6rem 2rem;
+.plaster {
+    padding: 6rem 2rem;
+    padding-top: 3rem;
+    padding-left: 4rem;
+    text-align: left;
 }
 .jumbotron > .plaster > .container {
-    background: linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.2) 70%);
+    /* background: linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.2) 70%); */
 }
 .jumbotron h1 {
 	color: rgba(255,255,255,1) !important;
@@ -153,7 +216,11 @@ h3 {
                  0 18px 23px rgba(0,0,0,.1);
 }
 .jumbotron p {
-	color: #e0d8d8 !important;
+	/* color: #e0d8d8 !important; */
+    font-weight: 400;
+    border-radius: 20px;
+    padding: .5rem 0;
+    color: #fff !important
 	/* font-family: Kurale-Regular; */
 }
 .jumbotron > .container {
@@ -174,7 +241,7 @@ h3 {
 }
 .lm-service-img {
     height: 32rem;
-    width: 30rem;
+    width: 80%;
     border-radius: 50%;
     /* box-shadow: 0 0 4px 3px rgba(0,0,0,.4), 
                 0 0 8px 13px rgba(0,0,0,.1), 
@@ -213,9 +280,78 @@ h3 {
     color: #084482 !important;
 }
 
+/* ========================= CONTACT STYLING ========================== */
+
+#contact {
+    background-color: #e9ebee;
+}
+.input-group-addon {
+    width: 2rem;
+    text-align: center;
+    padding-top: 4rem;
+}
+.lm-fa {
+    padding-top: 0.8rem;
+}
+.lm-fa-text {
+    font-size: 3rem;
+}
+.circle-icon {
+    background: #ffc0c0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+}
+.p-pad7 {
+    padding: 0 7rem;
+}
+.lm-attention {
+    color: #084482;
+    font-weight: 600;
+    transition: all 0.6s ease-in-out;
+}
+.lm-attention:hover {
+    color: #fff;
+    background-color: #084482;
+    padding: .5rem;
+    border-radius: 27px;
+}
+
+/* ========================== LITTLE TEAM STYLING ======================== */
+
+.row-padding {
+    padding: 0 5rem;
+}
+.team-card {
+    transition: all 0.4s ease-in-out;
+}
+.team-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.team-h2 {
+    margin-top: .8rem;
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+.lm-bold {
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+.lm-bold:hover {
+    border-bottom: solid #084482 .1rem;
+}
+
 /* ======================= MEDIA QUERIES ============================== */
 
 @media only screen and (max-width: 768px) {
+    html {
+        text-align: center;
+    }
 /* Parallax scrolling most times doesn't work on mobile devices. This removes the parallax scroll effect  */
     .jumbotron {
       background-attachment: scroll;
@@ -241,16 +377,72 @@ h3 {
         height: 22rem;
         width: 20rem;
     }
+    .lm-service-h2 {
+        font-size: 3.5rem;
+        line-height: 4.2rem;
+    }
     .lm-service-img {
         padding: 1rem;
     }
     .display-3 {
         font-size: 3.5rem;
     }
+    .pt-5 {
+        padding: 1rem;
+    }
+    .p-4 {
+        padding-top: 0;
+    }
+    .lead {
+        font-size: 1.1rem;
+    }
     .lm-service-p {
         line-height: 2.1rem;
+        font-size: 1.1rem;
     }
     #lms-4 {
         margin-top: 0;
     }
+    #social-pad {
+        float: none;
+        text-align: center;
+    }
+    .display-in-b {
+        display: block;
+        text-align: center;
+    }
+    .lm-ad-display {
+        text-align: center;
+    }
+    .team-card {
+        margin-top: 1rem;
+    }
+    .team-card:hover {
+        transform: none;
+    }
+    .row-padding {
+        padding: 0 1rem;
+    }
+    .img-house {
+        display:none;
+    }
+    .plaster {
+        text-align: center;
+    }
+    .lm-attention:hover {
+        color: #084482;
+        background-color: #e9ebee;
+        padding: 0;
+    } 
+    .lm-bold:hover {
+        border-bottom: none;
+    }
+    .lm-pad-top {
+        padding-top: 1.5rem !important;
+    }
+}
+.trialStyle {
+    background-color: rgb(8, 68, 130, 0.5) !important;
+    /* background-color: rgba(10,20,40, 0.7) !important; */
+    background-image: linear-gradient(rgb(78, 105, 162, 0.5), rgb(59, 89, 152) 50%);
 }
