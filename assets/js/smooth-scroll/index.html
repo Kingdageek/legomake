@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smooth Scroll To ID/Anchor/DIV Demo</title>
+    <style>
+    body { background-color: #ddd; }
+        h1{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+    .link{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration:none;
+        padding:15px;
+        border-radius:20px;
+        background-color:blue;
+        display:block;
+        color:white;
+        width:200px;
+        margin-top:5px;
+    }
+    .link:hover{
+        color:blue;
+        background-color:white;
+        border:2px solid blue;
+    }
+    .maindiv{
+        border:5px solid red;
+        padding-top:100px;
+        padding-bottom:100px;
+        margin-top:300px;
+        border-radius:50px;
+        font-size:30px;
+    }
+    #download{
+        padding-top:100px;
+        font-size:30px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    </style>
+</head>
+<body>
+<center>
+<h1>Smooth Scroll To ID/Anchor/DIV Demo</h1>
+<div class="jquery-script-ads" align="center" style="margin:30px auto"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<a class="sscroll link" href="#t1">Goto T1(with sscroll)</a><br>
+<a class="link" href="#t2">Goto T2(without sscroll)</a><br>
+<a class="sscroll link" href="#t3">Goto T3(with sscroll)</a><br>
+
+<div class="maindiv" id="t1">HELLO I AM T1</div>
+
+<div class="maindiv" id="t2">HELLO I AM T2</div>
+
+<div class="maindiv" id="t3">HELLO I AM T3</div>
+
+</center>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="smoothScroll.js"></script>
+</body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</html>
+
