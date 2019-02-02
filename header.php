@@ -7,6 +7,7 @@
 	<link href="<?=URLROOT;?>/assets/img/lego.fw.png" alt="" rel="shortcut icon" type="images/x-icon">
 	<title><?=$title;?></title>
 	<link href="<?= URLROOT;?>/assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?= URLROOT;?>/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?= URLROOT;?>/assets/css/animate.css">
